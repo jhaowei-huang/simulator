@@ -1,5 +1,6 @@
 package com.cccclab.expertsystemsimulator.ui;
 
+import com.cccclab.expertsystemsimulator.Simulator;
 import com.cccclab.expertsystemsimulator.design.MainWindowDesign;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.CustomComponent;
@@ -39,7 +40,8 @@ public class MainWindow extends CustomComponent {
 //		                           " from menu.");
 		    }  
 		};
-		
+		Simulator simulator = new Simulator();
+		layout.addComponent(simulator, "simulator");
 		this.setCompositionRoot(layout);
 	}
 }
