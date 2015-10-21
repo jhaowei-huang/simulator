@@ -40,6 +40,7 @@ public class MainWindow extends CustomComponent {
 //		                           " from menu.");
 		    }  
 		};
+		
 		Simulator simulator = new Simulator();
 		layout.addComponent(simulator, "simulator");
 		this.setCompositionRoot(layout);
