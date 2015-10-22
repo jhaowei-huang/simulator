@@ -7,7 +7,7 @@ window.com_cccclab_expertsystemsimulator_Simulator = function() {
 	/*var btnChange = document.createElement('button');
 	btnChange.innerHTML("toogle create / delete mode");
 	btnChange.appendTo(myview);*/
-	// mouse moving detector
+	// check webGL
 	if (!Detector.webgl) Detector.addGetWebGLMessage();
 	// threejs basic component
 	var container;
