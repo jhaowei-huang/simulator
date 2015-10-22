@@ -10,6 +10,7 @@ import com.vaadin.ui.AbstractJavaScriptComponent;
 	"js/stats.js",
 	"js/TrackballControls.js",
 	"js/Detector.js",
+	"js/OrbitControls.js",
 	"js/scene.js" })
 public class Simulator extends AbstractJavaScriptComponent {
 

@@ -40,8 +40,9 @@ public class MainWindow extends CustomComponent {
 //		                           " from menu.");
 		    }  
 		};
-		
 		Simulator simulator = new Simulator();
+		simulator.setWidth("100%");
+		simulator.setHeight("100%");
 		layout.addComponent(simulator, "simulator");
 		this.setCompositionRoot(layout);
 	}
